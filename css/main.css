@@ -1,0 +1,536 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	background: #262626;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+	transition: all 0.5s ease;
+	color: #fff;
+}
+
+h1,h2,h4,h5,h6 {
+	margin: 0;
+}
+
+.container {
+	width: 87%;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+	z-index: 2;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.offer,.slider {
+	width: 50%;
+	position: relative;
+}
+
+.offer {
+	background: #1c1c1c;
+}
+
+.btn {
+	background: #e930a1;
+	color: #fff;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+	width: 185px;
+	padding: 22px 0;
+	border-radius: 100px;
+	display: block;
+}
+
+.btn:hover {
+	background: #ff009c;
+	box-shadow: 0 10px 30px rgba(233,48,161,0.4);
+}
+
+.btn-round {
+	font-size: 9px;
+	border: 1px solid #30e9a1;
+	color: #30e9a1;
+	padding: 5px 16px;
+	text-transform: uppercase;
+	border-radius: 100px;
+}
+
+.btn-round:hover {
+	background: #30e9a1;
+	color: #fff;
+	border: 1px solid #30e9a1;
+	color: #000;
+}
+
+.header {
+	margin-top: 5vh;
+	height: 7vh;
+}
+
+.content {
+	height: 83vh;
+}
+
+.offer__title {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.offer__title_two {
+	font-size: 40px;
+	font-weight: 600;
+	margin-left: 20vh;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.offer__word {
+	display: block;
+	font-size: 50px;
+	font-weight: 900;
+	position: relative;
+}
+
+.offer__word:before{
+	content: 'аниме-девочку';
+	display: block;
+	font-size: 50px;
+	font-weight: 900;
+	color: #8d1212;
+	z-index: 1;
+	position: absolute;
+	margin-left: -6px;
+	margin-top: -4px;
+}
+
+.offer__word span {
+	z-index: 2;
+	position: relative;
+}
+
+.offer__word:after{
+	content: 'аниме-девочку';
+	display: block;
+	font-size: 50px;
+	font-weight: 900;
+	color: #37aaa8;
+	z-index: 1;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+}
+
+.offer__btns {
+	margin-top: 4vh;
+}
+
+.offer__btn {
+	margin-right: 20px;
+}
+
+.offer__cta {
+	margin-top: 6vh;
+}
+
+.content:before {
+	content: '';
+	display: block;
+	background: url('../img/light1.png');
+	width: 1009px;
+	height: 979px;
+	position: absolute;
+	right: 0;
+	top: -3vh;
+}
+
+.content:after {
+	content: '';
+	display: block;
+	background: url('../img/light2.png');
+	width: 1190px;
+	height: 1080px;
+	position: absolute;
+	right: 0;
+	top: -14vh;
+	z-index: 1;
+}
+
+.slider {
+	background: rgba(0,0,0,0.07);
+	position: relative;
+}
+
+.ellipse {
+	background: url('../img/zero_two/ellips.png') no-repeat center center  / contain;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: -10%;
+	right: 0;
+}
+
+.triangle {
+	background: url('../img/himiko_toga/triangle.png') no-repeat center center  / contain;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	margin-top: 8vh;
+	margin-left: 9vh;
+}
+
+.lines-dot {
+	background: url('../img/zero_two/lines-dot.png') no-repeat center center  / contain;
+	width: 20%;
+	height: 20%;
+	position: absolute;
+	bottom: 10%;
+	left: -14%;
+}
+
+.plus-yellow {
+	background: url('../img/zero_two/plus-yellow.png') no-repeat center center  / contain;
+	width: 6%;
+	height: 6%;
+	position: absolute;
+	top: 41%;
+	left: 24%;
+	max-width: 67px;
+	max-height: 67px;
+}
+
+.zero_two {
+	background: url('../img/zero_two/zero_two.png') no-repeat center center  / contain;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	bottom: 0;
+	left: 9%;
+	max-width: 550px;
+	max-height: 792px;
+}
+
+.himiko_toga {
+	background: url('../img/himiko_toga/himiko_toga.png') no-repeat center center  / contain;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	bottom: 0;
+	left: 13%;
+	max-width: 559px;
+	max-height: 788px;
+}
+
+.shinobu_kocho {
+	background: url('../img/shinobu_kocho/shinobu_kocho.png') no-repeat center center  / contain;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	bottom: 0;
+	left: 13%;
+	max-width: 463px;
+	max-height: 660px;
+}
+
+.plus-dots {
+	background: url('../img/zero_two/plus-dots.png') no-repeat center center  / contain;
+	width: 40%;
+	height: 40%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	max-width: 290px;
+	max-height: 290px;
+}
+
+.triangles {
+	background: url('../img/zero_two/triangles.png') no-repeat center center  / contain;
+	width: 20%;
+	height: 20%;
+	position: absolute;
+	top: 20%;
+	right: 10%;
+	max-width: 165px;
+	max-height: 165px;
+}
+
+.line-wave {
+	background: url('../img/zero_two/line-wave.png') no-repeat center center  / contain;
+	width: 30%;
+	height: 30%;
+	position: absolute;
+	top: 20%;
+	left: -10%;
+	max-width: 260px;
+	max-height: 233px;
+}
+
+.slider__controller {
+	position: absolute;
+	opacity: 0;
+}
+
+.prev {
+	margin-top: 8vh;
+	margin-left: 30px;
+	width: 42px;
+	height: 42px;
+	border: 1px solid #cfcdce;
+	z-index: 1;
+	opacity: 0.5;
+}
+
+.next {
+	width: 42px;
+	height: 42px;
+	border: 1px solid #cfcdce;
+	margin-left: 1vh;
+	margin-top: 8vh;
+	z-index: 1;
+}
+
+.name__author {
+	width: 160px;
+	height: 10px;
+	position: absolute;
+	margin-top: 17vh;
+	margin-left: 5vh;
+	font-size: 11px;
+	font-weight: 900;
+	color: #c1bfc0;
+	z-index: 1;
+}
+
+.name__anime {
+	width: 200px;
+	height: 10px;
+	position: absolute;
+	color: #c0bfbf;
+	font-size: 9px;
+	margin-top: 20vh;
+	margin-left: 5vh;
+	z-index: 1;
+}
+
+.link__anime {
+	width: 160px;
+	height: 10px;
+	position: absolute;
+	color: #fff;
+	font-size: 8px;
+	margin-top: 23vh;
+	margin-left: 5vh;
+	z-index: 1;
+}
+
+.syringe_big {
+	background: url('../img/himiko_toga/syringe_big.png') no-repeat center center  / contain;
+	width: 22%;
+	height: 22%;
+	position: absolute;
+	margin-top: 28vh;
+	margin-left: -7vh;
+	max-width: 181px;
+	max-height: 182px;
+}
+
+.syringe_small {
+	background: url('../img/himiko_toga/syringe_small.png') no-repeat center center  / contain;
+	width: 22%;
+	height: 22%;
+	position: absolute;
+	margin-top: 55vh;
+	margin-left: 60vh;
+	max-width: 157px;
+	max-height: 70px;
+}
+
+.patch_back {
+	background: url('../img/himiko_toga/patch_back.png') no-repeat center center  / contain;
+	width: 20%;
+	height: 20%;
+	position: absolute;
+	margin-top: 28vh;
+	margin-left: 58vh;
+	max-width: 166px;
+	max-height: 168px;
+}
+
+.patch_front {
+	background: url('../img/himiko_toga/patch_front.png') no-repeat center center  / contain;
+	width: 25%;
+	height: 25%;
+	position: absolute;
+	margin-top: 62vh;
+	margin-left: 10vh;
+	max-width: 225px;
+	max-height: 225px;
+}
+
+.butterfly_left {
+	background: url('../img/shinobu_kocho/butterfly_left.png') no-repeat center center  / contain;
+	width: 30%;
+	height: 30%;
+	position: absolute;
+	margin-top: 45vh;
+	margin-left: -5vh;
+	max-width: 258px;
+	max-height: 205px;
+}
+
+.butterfly_right {
+	background: url('../img/shinobu_kocho/butterfly_right.png') no-repeat center center  / contain;
+	width: 42%;
+	height: 42%;
+	position: absolute;
+	bottom: 0;
+	margin-left: 52vh;
+	max-width: 258px;
+	max-height: 205px;
+}
+
+.butterfly_behind {
+	background: url('../img/shinobu_kocho/butterfly_behind.png') no-repeat center center  / contain;
+	width: 15%;
+	height: 15%;
+	margin-top: 43vh;
+	margin-left: 65vh;
+	position: absolute;
+	max-width: 112px;
+	max-height: 117px;
+}
+
+.butterfly_behind2 {
+	background: url('../img/shinobu_kocho/butterfly_behind2.png') no-repeat center center  / contain;
+	width: 11%;
+	height: 11%;
+	margin-top: 30vh;
+	margin-left: 8vh;
+	position: absolute;
+	max-width: 112px;
+	max-height: 117px;
+}
+
+.square {
+	background: url('../img/shinobu_kocho/square.png') no-repeat center center  / contain;
+	width: 65%;
+	height: 65%;
+	margin-top: 24vh;
+	margin-left: 16vh;
+	position: absolute;
+	max-width: 500px;
+	max-height: 501px;
+}
+
+.cross {
+	background: url('../img/nezuko_kamade/cross.png') no-repeat center center  / contain;
+	width: 72%;
+	height: 72%;
+	margin-top: 20vh;
+	margin-left: 13vh;
+	position: absolute;
+	max-width: 614px;
+	max-height: 614px;	
+}
+
+.nezuko_kamade {
+	background: url('../img/nezuko_kamade/nezuko_kamade.png') no-repeat center center  / contain;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	bottom: 0;
+	left: 11%;
+	max-width: 560px;
+	max-height: 652px;
+}
+
+.leaflet_big {
+	background: url('../img/nezuko_kamade/leaflet_big.png') no-repeat center center  / contain;
+	width: 30%;
+	height: 30%;
+	margin-top: 47vh;
+	margin-left: 5vh;
+	position: absolute;
+	max-width: 297px;
+	max-height: 278px;
+}
+
+.leaflet_top_eagle {
+	background: url('../img/nezuko_kamade/leaflet_top_eagle.png') no-repeat center center  / contain;
+	width: 30%;
+	height: 30%;
+	margin-top: 7vh;
+	margin-left: 55vh;
+	position: absolute;
+	max-width: 246px;
+	max-height: 198px;
+}
+
+.leaflet_left {
+	background: url('../img/nezuko_kamade/leaflet_left.png') no-repeat center center  / contain;
+	width: 17%;
+	height: 17%;
+	margin-top:  25vh;
+	margin-left: -5vh;
+	position: absolute;
+	max-width: 149px;
+	max-height: 109px;
+}
+
+.leaflet_red {
+	background: url('../img/nezuko_kamade/leaflet_red.png') no-repeat center center  / contain;
+	width: 7%;
+	height: 7%;
+	margin-top: 65vh;
+	margin-left: 80vh;
+	position: absolute;
+	max-width: 40px;
+	max-height: 57px;
+}
+
+.leaflet_behind {
+	background: url('../img/nezuko_kamade/leaflet_behind.png') no-repeat center center  / contain;
+	width: 15%;
+	height: 15%;
+	margin-top: 45vh;
+	margin-left: 65vh;
+	position: absolute;
+	max-width: 129px;
+	max-height: 156px;
+}
+
+.card {
+	opacity: 0;
+}
+
+.card2 {
+	opacity: 0;
+}
+
+.card3 {
+	opacity: 0;
+}
+
+.card4 {
+	opacity: 0;
+}
